@@ -1,0 +1,246 @@
+p{
+    margin: 0;
+}
+.new-contest-slider-section{
+    background-image: linear-gradient(transparent,#000000a8),url(img/john-rodenn-castillo-rQqWOHZ96OM-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 50px;
+}
+.new-contest-slider-section .new-contest-header{
+    padding: 30px 0;
+}
+.new-contest-slider-section .new-contest-header .logo{
+    max-width: 300px;
+}
+.new-contest-slider-section .new-contest-header .serach .input{
+    width: 100%;
+    border: 1px solid #eee;
+    padding: 10px 50px;
+    outline: none;
+    background-color: #fff;
+    border-radius: 100px;
+    padding-right: 80px;
+}
+.new-contest-slider-section .new-contest-header .serach .search-inner{
+    position: relative;
+    width: 500px;
+    max-width: 90%;
+}
+.new-contest-slider-section .new-contest-header .serach .fa-search{
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.new-contest-slider-section .new-contest-header .serach .submit{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #0469A5;
+    height: 100%;
+    font-size: 14px;
+    border-radius: 100px;
+    font-weight: 600;
+    min-width: 80px;
+    border: none;
+    color: #fff;
+}
+
+.new-contest-slider{
+    color: #fff;
+    margin-top: 25vh;
+    padding-bottom: 50px;
+}
+.new-contest-slider .infos h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.new-contest-slider .infos i{
+    font-size: 20px;
+}
+.new-contest-slider .infos p{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+}
+.new-contest-slider .slider-img{
+    height: 350px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.new-contest-slider .owl-nav{
+    display: none;
+}
+
+.contest-submission-section{
+    padding: 30px 0;
+    background-color: #F3F5F7;
+}
+.contest-submission-section .right-side .tab{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contest-submission-section .right-side .tab p{
+    display: inline-block;
+    font-size: 20px;
+    list-style: none;
+    cursor: pointer;
+    margin-right: 30px;
+    padding: 10px 5px;
+}
+.contest-submission-section .right-side .tab .active{
+    font-weight: 600;
+    border-bottom: 4px solid blue;
+    color: blue;
+}
+.right-side .serach .input{
+    width: 100%;
+    border: 1px solid #eee;
+    padding: 10px 50px;
+    outline: none;
+    background-color: #fff;
+    border-radius: 100px;
+    padding-right: 80px;
+}
+.right-side .serach .search-inner{
+    position: relative;
+    width: 400px;
+    max-width: 90%;
+}
+.right-side .serach .fa-search{
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.right-side .serach .submit{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #00436d;
+    height: 100%;
+    font-size: 14px;
+    border-radius: 100px;
+    font-weight: 600;
+    min-width: 80px;
+    border: none;
+    color: #fff;
+}
+.main-submissions .sub-wraper{
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 120px;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 10%);
+}
+
+.main-submissions .sub-wraper .sub-img{
+    margin-top: -70px;
+    box-shadow: -5px 8px 15px 0px rgb(0 0 0 / 50%);
+}
+.main-submissions .sub-wraper .title{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-submissions .sub-wraper .title i{
+    font-size: 20px;
+    cursor: pointer;
+    color: red;
+
+}
+.main-submissions .sub-wraper .author{
+    color: #696969;
+}
+.main-submissions .sub-wraper .votes{
+    color: #696969;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+.main-submissions .sub-wraper .votes img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    padding: 2px;
+    background-color: #fff;
+    margin-left: -10px;
+    object-fit: cover;
+}
+.main-submissions .sub-wraper .votes img:nth-child(1){
+    margin-left: 0;
+}
+.main-submissions .sub-wraper .votes span{
+    margin-left: 10px;
+}
+.main-submissions .sub-wraper .des{
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    color: grey;
+}
+.main-submissions .sub-wraper .footer{
+    padding-top: 10px;
+    margin-top: 20px;
+}
+.main-submissions .sub-wraper .footer .comment{
+    position: relative;
+    height: 50px;
+}
+.main-submissions .sub-wraper .footer .comment input{
+    width: 100%;
+    height: 100%;
+    background-color: #F3F5F7;
+    padding: 10px 20px;
+    padding-right: 50px;
+    border: none;
+    outline: none;
+    border: 1px solid #eee;
+}
+.main-submissions .sub-wraper .footer .comment button{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    min-width: 80px;
+    color: #00436d;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* left side */
+.left-side .contest-winners{
+    margin-top: 105px;
+}
+.left-side .contest-winners .title{
+    font-size: 25px;
+    font-weight: 600;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+.left-side .contest-winners .single-contest-winner{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.left-side .contest-winners .single-contest-winner img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 30px;
+    object-fit: cover;
+}
+.left-side .contest-winners .single-contest-winner .name{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
